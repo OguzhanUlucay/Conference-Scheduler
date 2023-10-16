@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "89475b55-2726-48ca-8713-1e291497281c",
+		"name": "Conference Scheduler Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3711541"
+	},
+	"item": [
+		{
+			"name": "Schedule",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Architecting Your Codebase 60min\r\nOverdoing it in Python 45min\r\nFlavors of Concurrency in Java 30min\r\nRuby Errors from Mismatched Gem Versions 45min\r\nJUnit 5 - Shaping the Future of Testing on the JVM 45min\r\nCloud Native Java lightning\r\nCommunicating Over Distance 60min\r\nAWS Technical Essentials 45min\r\nContinuous Delivery 30min\r\nMonitoring Reactive Applications 30min\r\nPair Programming vs Noise 45min\r\nRails Magic 60min\r\nMicroservices \"Just Right\" 60min\r\nClojure Ate Scala (on my project) 45min\r\nPerfect Scalability 30min\r\nApache Spark 30min\r\nAsync Testing on JVM 60min\r\nA World Without HackerNews 30min\r\nUser Interface CSS in Apps 30min"
+				},
+				"url": {
+					"raw": "localhost:8081/scheduler-service/schedule",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"scheduler-service",
+						"schedule"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
