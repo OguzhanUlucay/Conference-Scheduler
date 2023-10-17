@@ -4,10 +4,10 @@ import java.time.LocalTime;
 
 public class StructuredSession {
 
-    private LocalTime scheduleTime;
     private String fullDescription; //Full description
     private String length;
     private int lengthMinutes;
+    private LocalTime scheduleTime;
 
     public StructuredSession(String fullDescription, String length) {
         this.fullDescription = fullDescription;

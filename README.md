@@ -27,17 +27,18 @@ Before you begin, ensure you have met the following requirements:
 
 ## Getting Started
 
-1. Clone the repository:
+1. Run latest build from docker hub:
+
+    ```bash
+    docker run --name conference-scheduler-service -p 8081:8081 oguzhanu/conference-scheduler-service:latest
+    ```
+
+2. Or clone the repository and manually build the service:
 
     ```bash
     git clone git@github.com:OguzhanUlucay/Conference-Scheduler.git
     ```
 
-1. Build jar:
-
-    ```bash
-    mvn clean install
-    ```
 ## Dockerization
 
 1. Build the Docker image:

@@ -8,7 +8,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.ogzhnulucay.model.common.StructuredSession;
 import org.ogzhnulucay.model.response.Schedule;
 import org.ogzhnulucay.model.response.Track;
-import org.ogzhnulucay.service.ScheduleCalculator;
+import org.ogzhnulucay.service.ScheduleCalculatorBasic;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,10 +18,10 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ExtendWith(MockitoExtension.class)
 @Tag("unit")
-class ScheduleCalculatorTest {
+class ScheduleCalculatorBasicTest {
 
     @InjectMocks
-    private ScheduleCalculator scheduleCalculator = new ScheduleCalculator();
+    private ScheduleCalculatorBasic scheduleCalculator = new ScheduleCalculatorBasic();
 
     @Test
     void givenCorrectSessions_whenSchedule_thenSuccessfullyConvertLengthStringToLengthInt() {
